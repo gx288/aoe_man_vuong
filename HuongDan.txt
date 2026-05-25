@@ -1,0 +1,38 @@
+======================================================================
+     HƯỚNG DẪN CÀI ĐẶT SỬA LỖI GIÃN MÀN HÌNH (STRETCH) CHO GAME AOE 1
+======================================================================
+
+* Bộ công cụ này giúp sửa lỗi game AOE 1 bị giãn tràn màn hình 16:9 khi cắm 
+  bằng cáp VGA (Analog). Giúp game hiển thị chuẩn tỷ lệ vuông 4:3 cổ điển 
+  và tự động thêm 2 viền đen ở hai bên màn hình khi chơi Fullscreen.
+
+----------------------------------------------------------------------
+CÁC BƯỚC CÀI ĐẶT (Chỉ cần làm 1 lần duy nhất):
+----------------------------------------------------------------------
+
+Bước 1: Copy toàn bộ các file trong thư mục này, bao gồm:
+        - Thư mục [Shaders]
+        - File [cnc-ddraw config.exe]
+        - File [ddraw.dll]
+        - File [ddraw.ini]
+        - File [HuongDan.txt]
+
+Bước 2: Tìm đến thư mục cài đặt game AOE của bạn trên máy tính.
+        (Đường dẫn mặc định của XArena thường là: 
+        C:\Program Files (x86)\XArena\Game\AOE1R)
+
+Bước 3: Dán đè (Paste) toàn bộ các file đã copy ở Bước 1 vào thư mục game này.
+        * Lưu ý: Nếu Windows hiển thị thông báo yêu cầu quyền Administrator,
+        bạn chỉ cần click vào "Continue" (Tiếp tục) để đồng ý.
+
+----------------------------------------------------------------------
+CÁCH CHƠI GAME:
+----------------------------------------------------------------------
+- Sau khi dán đè xong, bạn không cần chạy thêm bất kỳ công cụ nào khác.
+- Cứ mở game thông qua XArena hoặc chạy trực tiếp file game (Empiresx.exe, 
+  Empiresx_r.exe, v.v...) bình thường.
+- Game sẽ tự động nhận diện và hiển thị ở dạng màn hình vuông chuẩn tỷ lệ 4:3 
+  với hai khoảng đen hoàn hảo ở bên!
+
+Chúc bạn chơi game vui vẻ!
+======================================================================
